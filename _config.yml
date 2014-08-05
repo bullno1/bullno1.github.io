@@ -1,7 +1,7 @@
 markdown: redcarpet
 highlighter: null
 permalink: /:title
-exclude: ["vendor"]
+exclude: ["vendor", "serve"]
 
 url:
 baseurl:
