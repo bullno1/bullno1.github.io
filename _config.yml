@@ -7,7 +7,7 @@ url:
 baseurl:
 
 redcarpet:
-  extensions: [strikethrough, tables]
+  extensions: [strikethrough, tables, footnotes]
 
 sass:
   sass_dir: public/css
