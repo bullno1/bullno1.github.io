@@ -1,5 +1,5 @@
 markdown: redcarpet
-highlighter: null
+highlighter: pygments
 permalink: /:title
 exclude: ["vendor", "serve"]
 
@@ -7,7 +7,7 @@ url:
 baseurl:
 
 redcarpet:
-  extensions: [strikethrough, tables, footnotes]
+  extensions: ["strikethrough", "tables", "footnotes", "fenced_code_block", "autolink"]
 
 sass:
   sass_dir: public/css
