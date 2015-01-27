@@ -1,6 +1,22 @@
 ---
 layout: default
 title: Home
+stylesheets: ["home"]
 ---
 
-Let there be dragons
+<div id="cover-img">big ass image</div>
+<h1>Le Viet Bach</h1>
+<p id="intro">
+I'm a brony<br/>
+I like pinkie pie
+</p>
+<div id="projects">
+	{% for project in site.projects %}
+	<div class="project">
+		<img class="project-image" src="{{project.thumbnail}}" />
+		<a class="description" href="{{project.url}}">
+			{{ project.title }}
+		</a>
+	</div>
+	{% endfor %}
+</div>
