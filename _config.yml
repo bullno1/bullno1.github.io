@@ -1,6 +1,6 @@
 markdown: redcarpet
 highlighter: pygments
-permalink: /:title
+permalink: /blog/:title
 exclude: ["vendor", "serve"]
 
 url:

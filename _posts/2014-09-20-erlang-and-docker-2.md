@@ -297,7 +297,7 @@ And that's it.
 Feel free to use `bullno1/archerl` for your apps.
 Tell me if you can reduce its size further and still keep Erlang running.
 
-[1]: /erlang-and-docker
+[1]: /blog/erlang-and-docker
 [2]: https://github.com/bullno1/cowdock
 [3]: http://en.wikipedia.org/wiki/Ldd_(Unix)
 [4]: http://www.erlang.org/doc/installation_guide/INSTALL.html
