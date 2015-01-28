@@ -4,18 +4,22 @@ title: Home
 stylesheets: ["home"]
 ---
 
-<div id="cover-img">big ass image</div>
+<div id="cover-img-wrapper">
+	<img id="cover-img" src="" />
+</div>
 <h1>Le Viet Bach</h1>
 <p id="intro">
-I'm a brony<br/>
-I like pinkie pie
+Tupacsum Ipsum But ain't no future right for me, I'm stuck in the game. <br />
+It's gonna take the man in me to conquer this insanity. I try and find my friends, but they're blowin in the wind. <br />
 </p>
-<div id="projects">
+<div id="portfolio">
 	{% for project in site.projects %}
 	<div class="project">
-		<img class="project-image" src="{{project.thumbnail}}" />
+		<div class="project-image"
+		     style="background-image: url({{project.thumbnail}})"></div>
 		<a class="description" href="{{project.url}}">
-			{{ project.title }}
+			<h2 class="project-title">{{project.title}}</h2>
+			<p class="project-short-desc">{{project.description}}</p>
 		</a>
 	</div>
 	{% endfor %}

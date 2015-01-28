@@ -5,7 +5,7 @@ exclude: ["vendor", "serve"]
 collections:
     projects:
         output: true
-        permalink: /projects/:path/
+        permalink: /projects/:title/
 
 defaults:
     -
