@@ -10,7 +10,8 @@
 #intro {
 	border-width: 1px 0 1px 0;
 	border-style: solid;
-	padding: 30px 0 30px 0;
+	padding: 20px 0 15px 0;
+	margin-bottom: 50px;
 }
 
 h1 {
