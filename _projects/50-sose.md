@@ -9,7 +9,7 @@ thumbnail: /projects/images/sose2.png
 # Introduction
 
 Symphony of space explosions (S.O.S.E) is a multiplayer real-time strategy game.
-It was developed as an academic project for the modules CS3283 & CS3284 (Media Technology Project).
+It was developed as an academic project for the modules CS3283 & CS3284 (Media Technology Project) in 2013 and 2014.
 
 It is similar to the board game [Battleship] [1] with a few twists.
 The game is played in real-time, players to have gather resources construct buildings and weapons just like a normal RTS game.

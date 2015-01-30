@@ -7,7 +7,7 @@ thumbnail: /projects/images/beat-rider.jpg
 # Introduction
 
 Beat rider is a music game where the game levels are generated from the player's music library.
-I contributed to this project during my time in [Rubycell Entertainment] [1].
+I contributed to this project during my time in [Rubycell Entertainment] [1] (2014).
 
 At the stage it is currently presented, it is only a prototype to show the capability of the audio analysis system.
 Other vastly different modes of play are possible.
