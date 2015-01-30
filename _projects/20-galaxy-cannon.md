@@ -15,7 +15,7 @@ The aim of the game is to destroy all red spheres on the screen with a touch-con
 
 The game has a custom [level editor] [2] for internal use.
 
-# My role and contributions in the project
+# My role and contributions
 
 - Programmed most game objects such as: Black hole, springboard, portal...
 - Created the [level editor] [2]

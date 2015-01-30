@@ -15,7 +15,7 @@ It is similar to the board game [Battleship] [1] with a few twists.
 The game is played in real-time, players to have gather resources construct buildings and weapons just like a normal RTS game.
 However, they conduct  their activities in separate floating islands and attack each other by sending missiles and robots towards the opponent's base much like a game of Battleship.
 
-# My role and contributions in the project
+# My role and contributions
 
 I was the lead programmer in a team of 4 students.
 My main contributions were:

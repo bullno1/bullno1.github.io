@@ -12,7 +12,7 @@ I contributed to this project during my time in [Rubycell Entertainment] [1] (20
 At the stage it is currently presented, it is only a prototype to show the capability of the audio analysis system.
 Other vastly different modes of play are possible.
 
-# My role and contributions in the project
+# My role and contributions
 
 - Research audio analysis methods and libraries
 - Develop a graph-based audio processing framework which can be used from Lua scripts
