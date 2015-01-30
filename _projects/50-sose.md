@@ -15,7 +15,7 @@ It is similar to the board game [Battleship] [1] with a few twists.
 The game is played in real-time, players to have gather resources construct buildings and weapons just like a normal RTS game.
 However, they conduct  their activities in separate floating islands and attack each other by sending missiles and robots towards the opponent's base much like a game of Battleship.
 
-# My role in the project
+# My role and contributions in the project
 
 I was the lead programmer in a team of 4 students.
 My main contributions were:
@@ -33,11 +33,20 @@ My main contributions were:
 - Vim for script editing
 - git
 
+# Source code
+
+Available at: https://github.com/jarbology/SOSE
+
 # Screenshots
 
 ![SOSE1](/projects/images/sose.png)
+Title screen
+
 ![SOSE2](/projects/images/sose2.png)
+A player is attacking his enemy's base which is still covered with fog of war
+
 ![SOSE3](/projects/images/sose3.png)
+Buildings can be created from a ring menu which reduces unnecessary mouse movement
 
 [1]: http://en.wikipedia.org/wiki/Battleship_%28game%29
 [2]: http://getmoai.com/wiki/index.php?title=Moai_Hosts
