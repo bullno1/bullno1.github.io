@@ -29,10 +29,10 @@ Other vastly different modes of play are possible.
 # Screenshots
 
 ![beat-rider](/projects/images/beat-rider.jpg)
-A generated track can goes up and down as well as sideway
+<div class="caption">A generated track can goes up and down as well as sideway</div>
 
 ![beat-rider-2](/projects/images/beat-rider2.jpg)
-In developer mode, audio features are visualized as graphs to help tuning game parameters
+<div class="caption">In developer mode, audio features are visualized as graphs to help tuning game parameters</div>
 
 [1]: http://rubycell.com/
 [2]: https://github.com/moaiforge/moai-sdk/wiki/Using-Plugins

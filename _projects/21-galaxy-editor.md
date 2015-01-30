@@ -27,6 +27,11 @@ I was largely responsible for most of the features in the editor including:
 - Serialization/deserialization system
 - Network backup
 
+# Technology and tools used
+
+- Corona engine: http://coronalabs.com/products/corona-sdk/
+- [Lua] [3]
+
 [1]: /projects/galaxy-cannon
 [2]: http://rubycell.com/
 [3]: http://www.lua.org/

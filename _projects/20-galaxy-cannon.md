@@ -30,13 +30,13 @@ The game has a custom [level editor] [2] for internal use.
 # Screenshots
 
 ![galaxy-cannon](/projects/images/galaxy-cannon2.jpg)
-Futuristic 3D main menu
+<div class="caption">Futuristic 3D main menu</div>
 
 ![galaxy-cannon2](/projects/images/galaxy-cannon.jpg)
-In-game screenshot
+<div class="caption">In-game screenshot</div>
 
 ![galaxy-cannon3](/projects/images/galaxy-cannon3.jpg)
-Credit screen
+<span class="caption">Credit screen</span>
 
 [1]: http://rubycell.com/
 [2]: /projects/galaxy-editor
