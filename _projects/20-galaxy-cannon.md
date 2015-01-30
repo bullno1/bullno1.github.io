@@ -22,7 +22,7 @@ The game has a custom [level editor] [2] for internal use.
 - Created basic GUI classes
 - Created the 3D rotating main menu
 
-# Technology and tools used
+# Technologies and tools used
 
 - Corona engine: http://coronalabs.com/products/corona-sdk/
 - [Lua] [3]

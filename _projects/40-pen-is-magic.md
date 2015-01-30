@@ -20,7 +20,7 @@ Different runes represents different magical elements and they can be combined t
 - Rune combination system
 - Element interaction system (i.e: water is strong against fire but weak against earth)
 
-# Technology and tools used
+# Technologies and tools used
 
 - Unity engine: http://unity3d.com
 - C#

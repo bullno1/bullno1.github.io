@@ -24,7 +24,7 @@ My main contributions were:
 - Creating a framework for hot reloading of assets and scripts.
 - Program some of the basic units' behaviours.
 
-# Technology and tools used
+# Technologies and tools used
 
 - Moai engine: http://getmoai.com/
 - C/C++ for creating a customized [Moai host] [2]

@@ -19,7 +19,7 @@ Other vastly different modes of play are possible.
 - A prototype to demonstrates how raw numbers from the framework can be mapped to gameplay elements
 - An [in-house build tool] [3] which eases the process of multi-platform building
 
-# Technology and tools used
+# Technologies and tools used
 
 - Moai engine: http://getmoai.com/
 - C/C++ for the audio processing [plugin] [2]

@@ -26,7 +26,7 @@ My contributions include:
 - Implement the compiler and the runtime API
 - [Discovering and fixing] [4] some bugs in the open source library: [glsl-optimizer] [4], an important component of [Unity engine] [5].
 
-# Technology and tools used
+# Technologies and tools used
 
 - C/C++ for both the compiler and the runtime API
 - GLSL as the compilation target

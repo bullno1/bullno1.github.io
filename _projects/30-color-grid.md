@@ -21,7 +21,7 @@ My contributions include:
 - Interface for powerups items
 - Some bonus items
 
-# Technology and tools used
+# Technologies and tools used
 
 - Corona engine: http://coronalabs.com/products/corona-sdk/
 - [Lua] [2]

@@ -27,7 +27,7 @@ I was largely responsible for most of the features in the editor including:
 - Serialization/deserialization system
 - Network backup
 
-# Technology and tools used
+# Technologies and tools used
 
 - Corona engine: http://coronalabs.com/products/corona-sdk/
 - [Lua] [3]
