@@ -19,7 +19,6 @@ stylesheets: ["home", "terminal"]
 				this.echo("home");
 				this.echo("portfolio");
 				this.echo("about");
-				this.echo("cv");
 				this.echo("blog");
 			},
 			cd: function(page) {
@@ -27,7 +26,6 @@ stylesheets: ["home", "terminal"]
 					case "home": location.href = "/"; break;
 					case "about": location.href = "/about"; break;
 					case "portfolio": location.href = "/#portfolio"; break;
-					case "cv": location.href = "/cv"; break;
 					case "blog": location.href = "/blog"; break;
 					default:
 						this.echo("Invalid page: '" + page + "'");
@@ -38,7 +36,7 @@ stylesheets: ["home", "terminal"]
 				location.href = "mailto:bach@bullno1.com?subject="+subject;
 			}
 		}, {
-			greetings: "Welcome, visitor. This is a functional terminal.\nUse [[b;;]help] to if you don't know what to do.\nAltenatively, you can navigate the site using your mouse like most normal people.\n",
+			greetings: "Welcome, visitor. This is a functional terminal.\nUse [[b;;]help] to if you don't know what to do.\nAltenatively, you can navigate the site using your mouse like most normal people do.\n",
 			name: "home-term",
 			height: 300,
 			prompt: 'visitor@bullno1.com> '
@@ -51,7 +49,7 @@ stylesheets: ["home", "terminal"]
 <div id="intro">
 	<p>I am completing my final year for a Bachelor's degree in Communications and Media at the NUS School of Computing (SoC).</p>
 	<p>My main focus is game programming but I am also interested in other areas such as web development, programming languages and distributed systems.</p>
-	<p>My best works so far are showcased below.</p>
+	<p>Some of my best works so far are showcased below.</p>
 </div>
 
 <div id="portfolio">

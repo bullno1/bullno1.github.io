@@ -5,7 +5,7 @@ title: About
 
 # About me
 
-My name is Le Viet Bach (Bach is the given name).
+My birth name is Le Viet Bach (Bach is the given name).
 
 I am passionate about technology and game development.
 From the age of 14, I have made it my goal to become a professional game programmer.
