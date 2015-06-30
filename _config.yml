@@ -14,6 +14,11 @@ defaults:
       values:
           layout: "project"
           stylesheets: ["project"]
+    -
+      scope:
+          path: ""
+      values:
+          layout: "post"
 
 url:
 baseurl:
