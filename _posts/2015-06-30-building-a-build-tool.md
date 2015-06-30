@@ -295,7 +295,8 @@ This is the equivalent of make's wildcard rule.
 `redo-with <script> <pattern>` will register a script for a given pattern.
 
 How will patterns be sorted?
-Where to put `redo-with`, I have no idea yet.
+Where to put `redo-with`?
+I have no idea yet.
 
 # Final notes
 
