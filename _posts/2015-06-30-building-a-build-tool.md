@@ -288,6 +288,15 @@ With full information on the dependency graph as shown above, I could write some
 It should come as a separate program and not built into `redo` itself (`redo-live`?)
 Having the database in a well-known format as SQLite also helps to integrate it with other tools.
 
+## A new redo-with command
+
+This is the equivalent of make's wildcard rule.
+
+`redo-with <script> <pattern>` will register a script for a given pattern.
+
+How will patterns be sorted?
+Where to put `redo-with`, I have no idea yet.
+
 # Final notes
 
 Writing `redo` was a fun exercise.
