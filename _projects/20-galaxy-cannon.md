@@ -1,7 +1,7 @@
 ---
 title: Galaxy Cannon
 description: A physic-based puzzle game for mobile devices
-thumbnail: /projects/images/galaxy-cannon.jpg
+thumbnail: /public/images/galaxy-cannon.jpg
 ---
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/hR4pBX8TpLo" frameborder="0" allowfullscreen></iframe>
@@ -29,13 +29,13 @@ The game has a custom [level editor] [2] for internal use.
 
 # Screenshots
 
-![galaxy-cannon](/projects/images/galaxy-cannon2.jpg)
+![galaxy-cannon](/public/images/galaxy-cannon2.jpg)
 <div class="caption">Futuristic 3D main menu</div>
 
-![galaxy-cannon2](/projects/images/galaxy-cannon.jpg)
+![galaxy-cannon2](/public/images/galaxy-cannon.jpg)
 <div class="caption">In-game screenshot</div>
 
-![galaxy-cannon3](/projects/images/galaxy-cannon3.jpg)
+![galaxy-cannon3](/public/images/galaxy-cannon3.jpg)
 <span class="caption">Credit screen</span>
 
 [1]: http://rubycell.com/

@@ -1,7 +1,7 @@
 ---
 title: Pen is magic
 description: A tower defense game with gesture-based control
-thumbnail: /projects/images/pen-is-magic.jpg
+thumbnail: /public/images/pen-is-magic.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WVIsfxFMmr8" frameborder="0" allowfullscreen></iframe>
@@ -28,8 +28,8 @@ Different runes represents different magical elements and they can be combined t
 
 # Screenshots
 
-![pen-is-magic](/projects/images/pen-is-magic.jpg)
+![pen-is-magic](/public/images/pen-is-magic.jpg)
 <div class="caption">In-game screen</div>
 
-![pen-is-magic2](/projects/images/pen-is-magic2.jpg)
+![pen-is-magic2](/public/images/pen-is-magic2.jpg)
 <div class="caption">All enemy types</div>

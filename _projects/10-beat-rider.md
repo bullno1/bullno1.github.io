@@ -1,7 +1,7 @@
 ---
 title: Beat rider
 description: Prototype for a music game with level generated from player's music library
-thumbnail: /projects/images/beat-rider.jpg
+thumbnail: /public/images/beat-rider.jpg
 ---
 
 # Introduction
@@ -28,10 +28,10 @@ Other vastly different modes of play are possible.
 
 # Screenshots
 
-![beat-rider](/projects/images/beat-rider.jpg)
+![beat-rider](/public/images/beat-rider.jpg)
 <div class="caption">A generated track can goes up and down as well as sideway</div>
 
-![beat-rider-2](/projects/images/beat-rider2.jpg)
+![beat-rider-2](/public/images/beat-rider2.jpg)
 <div class="caption">In developer mode, audio features are visualized as graphs to help tuning game parameters</div>
 
 [1]: http://rubycell.com/

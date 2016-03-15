@@ -1,7 +1,7 @@
 ---
 title: Two men one chain
 description: A cooperative endless run game
-thumbnail: /projects/images/2men1chain.jpg
+thumbnail: /public/images/2men1chain.jpg
 ---
 
 # Introduction
@@ -34,14 +34,14 @@ Available at: https://github.com/bullno1/TwoMenOneChain
 
 # Screenshots
 
-![2men1chain-rule1](/projects/images/2men1chain-rule1.jpg)
+![2men1chain-rule1](/public/images/2men1chain-rule1.jpg)
 <div class="caption">Rules - part 1</div>
 
-![2men1chain-rule2](/projects/images/2men1chain-rule2.jpg)
+![2men1chain-rule2](/public/images/2men1chain-rule2.jpg)
 <div class="caption">Rules - part 2</div>
 
-![2men1chain](/projects/images/2men1chain.jpg)
+![2men1chain](/public/images/2men1chain.jpg)
 <div class="caption">Catching the energy ball shot from the boss</div>
 
-![2men1chain2](/projects/images/2men1chain2.jpg)
+![2men1chain2](/public/images/2men1chain2.jpg)
 <div class="caption">Shooting the energy ball back a the boss</div>

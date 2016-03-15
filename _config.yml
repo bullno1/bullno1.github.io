@@ -1,5 +1,5 @@
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 permalink: /blog/:title
 exclude: ["vendor", "serve"]
 collections:

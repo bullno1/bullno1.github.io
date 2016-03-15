@@ -1,7 +1,7 @@
 ---
 title: Grain
 description: A DSL to create GPU-accelerated particle systems
-thumbnail: /projects/images/grain.jpg
+thumbnail: /public/images/grain.jpg
 ---
 
 # Introduction
@@ -55,7 +55,7 @@ velocity = vec2(cos(angle), sin(angle)) * speed;
 ```
 
 Combined with a particle system that reacts to gravity, it creates the following effect:
-![geyser](/projects/images/grain.jpg)
+![geyser](/public/images/grain.jpg)
 
 The following code creates an object which deflects particles:
 
@@ -74,7 +74,7 @@ life = select(bounce, life / 2, life);
 ```
 
 Here's a screenshot of it in action:
-![rain](/projects/images/grain2.jpg)
+![rain](/public/images/grain2.jpg)
 
 # Source code
 

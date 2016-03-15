@@ -1,7 +1,7 @@
 ---
 title: Galaxy Editor
 description: WYSIWYG level editor for Galaxy Cannon
-thumbnail: /projects/images/galaxy-editor.png
+thumbnail: /public/images/galaxy-editor.png
 ---
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/LYQ-EYiq-jc" frameborder="0" allowfullscreen></iframe>
