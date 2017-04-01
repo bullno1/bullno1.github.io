@@ -16,7 +16,7 @@ defaults:
           stylesheets: ["project"]
     -
       scope:
-          path: ""
+          path: "posts"
       values:
           layout: "post"
 
