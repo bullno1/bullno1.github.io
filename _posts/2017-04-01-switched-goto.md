@@ -67,14 +67,14 @@ lbl_JMP:
 
 Switch-based dispatch is portable since it only uses standard feature in the C language.
 Indirect-threading using computed goto is generally faster.
-The simple and short explanation is that switch-based dispatch consist of a single indirect branch (the switch statement) and multiple targets (case statements) while computed goto has multiple branches and targets (goto statements and labels).
+The simple and short explanation is that switch-based dispatch consists of a single indirect branch (the switch statement) and multiple targets (case statements) while computed goto has multiple branches and targets (goto statements and labels).
 
 The former is bad for CPU branch predictors because all it sees is a single source randomly jumps to different targets, which is almost always unpredictable.
 The later is better.
 There is usually a correlation between instructions: a series of `OP_PUSH` is usually followed with an `OP_CALL`, an `OP_JOF` (jump on false) almost always comes after an `OP_CMP` (comparison).
 
 One is faced with a dilemma: portability (switch) or performance (computed goto)?
-While computed goto is supported in GCC and Clang which for some is "portable enough", my language [lip](https://github.com/bullno1/lip) must be compiled on Microsoft Visual C++ (MSVC), a popular and **good** [^2] compiler on Windows.
+While computed goto is supported in GCC and Clang which for some is "portable enough", my language, [lip](https://github.com/bullno1/lip) must be compiled on Microsoft Visual C++ (MSVC), a popular and **good** [^2] compiler on Windows.
 
 # A naive solution
 
@@ -158,7 +158,7 @@ Then we use it to define an `enum` whose members come from the opcode list.
 enum opcode_e { OP_ADD, OP_LOAD_INT, OP_JMP /* ... */ }
 ```
 
-With X opcode, we have gained the ability to do use (limited) higher order function in the C preprocessor!
+With X macro, we have gained the ability to do use (limited) higher order function in the C preprocessor!
 One fairly obvious use is to generate a "to string" function for enums:
 
 ```c
