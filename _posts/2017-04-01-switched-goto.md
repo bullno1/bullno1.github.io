@@ -2,7 +2,7 @@
 title: Faster portable bytecode interpreter with switched goto
 ---
 
-_Processors hate him, learn to write faster portable interpreters with this simple trick_
+_Processors hate him, learn to write faster portable interpreters with this simple trick._
 
 tl;dr: In this post, I will talk about a bytecode interpretation technique which performs better than switch dispatch while remaining portable.
 
