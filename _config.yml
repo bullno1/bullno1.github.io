@@ -1,7 +1,7 @@
 markdown: kramdown
 highlighter: rouge
 permalink: /blog/:title
-exclude: ["vendor", "serve"]
+exclude: ["vendor", "serve", "Gemfile", "Gemfile.lock", "CNAME"]
 collections:
     projects:
         output: true
