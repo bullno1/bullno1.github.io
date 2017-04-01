@@ -9,7 +9,7 @@ tl;dr: In this post, I will talk about a bytecode interpretation technique which
 # A tale of two dispatch techniques
 
 When it comes to building a bytecode interpreter in C, one usually have two choices: a giant switch or computed goto [^1].
-Supposed that your virtual machine instruction is defined as follow:
+Suppose that your virtual machine instruction is defined as follow:
 
 ```c
 enum opcode_e {
