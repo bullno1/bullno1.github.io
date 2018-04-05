@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/bullno1
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bullno1.com
+  * I am bullno1 (https://keybase.io/bullno1) on keybase.
+  * I have a public key with fingerprint DB44 728B 3448 F054 9106  41C8 629D DEDA 535D 5331
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101c42ac40a9b5dc05f0582722399fcb5a362e155feb8ae2c3aeb281da3f33ec2220a",
+      "fingerprint": "db44728b3448f054910641c8629ddeda535d5331",
+      "host": "keybase.io",
+      "key_id": "629ddeda535d5331",
+      "kid": "0101c42ac40a9b5dc05f0582722399fcb5a362e155feb8ae2c3aeb281da3f33ec2220a",
+      "uid": "ab85338213f3bf442e2df1688d3ce019",
+      "username": "bullno1"
+    },
+    "service": {
+      "hostname": "bullno1.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1522917623,
+  "expire_in": 157680000,
+  "prev": "d74c400de4fcaeb9a42596950218a993200c96d557f9efd2efe2979db310e6b8",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUmtMHFUUXh4lKwitrQJFNDJVSutKZu48dmZ5BEiJxdYUAlZoxe087sDw2Fl2
+l/cCgmktRRsoxhZMN6WxRYxkGwiSYrFpgI21rYHSl1BeFUwQY3i0BCigM8T+MPGn
+98/JPef7vnPOl1Pr66HRunFnR4eS05MxtxvTnOZQ3/h6KcLJQjFiKEWy4UaAOQK0
+2ozZkoAYEBRDMZ4ALE+gLMORAo+SIkrSQA8AzjAiz5EsTgGIkaQIOZqFgMdZyAEa
+E1hcxHHIAwBQFtEhomTKgBazRTLZFFmBIwg9oDmcIGhFj2AwlCIwnqYAIwhQYEmc
+FEgcxxRipmxVGcpwHGuF4ZKs5JSPcWO8/8D/z3Pnb8ixHK3I0wBTipxIEAACQcQo
+mhZwHqIYowKt0GJic6GC5vJzckwyhpTpECVZIPFQ9VVd5N+AcF7OVZhmi2yTeTlH
+KWTabGarQSXais0qshByxn80jJxkEhQXFUYBtFgl2YQYMAXJ2yRVFCMBYDA9BXAd
+AovMkgUaJRVB6ikaVZ7aBxao3usJxRVUgAcJkVeWZlgCkAzFkCjAaJZhcICiPEMJ
+JKkXGSgKAIoQMHpG4HAMhRRHI+paeSYZMSitbGyGommVMkysLd8CkTLvanfcU+Om
+1bziH+I5vMdSQ+ydTanziv3x2eVtclfPTuP93JZnGR/X5rVXqTp0iQ+qKJy01LhW
+g+C0tBz1uLp95aUXtt9jE+XutPJd78YMNZYnrHv8mXs0WXOzv/p1zwDPptaZ/vXW
++vE9w1fm/dIjnib5NZamCBH5wnqIa8kjMvFwj4/3tmvnkIq32+O+2NGYN2SYQkYK
+f364oIvpDvzhXG/bsdHlXQ99HzeVB4Kxykr/ub7x8fMTdUWDeH9qfawYcrdF+85Y
+fNTaQNuRp4NW3amoO42T35Q4fB5k3XeX6jefn/g83jkTXOWXnoVE+0ZeCBd73/Q4
+OfLeXznUV4d0t74MyLY3vzgiJWVeXS0/5hp1Lrt1JnSNhcZvOtER6kT3nSnb1v/y
+ygn//Y6IA7aOA613F6szU71/OlI5e7R3R9MHlcGzHWJJWOjUTW5qa3Tqkn/nFV2f
+Peh58uKNWseCsXZyssL/671VK1M1zYl3Shzd1+oDfwneN5cS/sRwsnUm82NkteHC
+5YnhtK6Yqy3dnySkxNb17HY2JFx+35nUlXvw9GyyfazjYtg6/O74g4D9y5bAvs+u
+d+p+zd9d/NujxbBBL+2l5Os+oVWuscg/3Ieb77ckbFnri/7d3DZVv/apmAecVdr5
+oifRJPK989LgihQSnrU42T7gsEvz93bGpRZ/ewqkZSzYO7pfazieHmd3JcnMSEo1
+7fVR+/TON3p8zg48Yrbf3jp3+/CHbzmCbvn+DQ==
+=u9my
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bullno1
+
+==================================================================
