@@ -5,29 +5,60 @@ var analysis = fetch("https://firebasestorage.googleapis.com/v0/b/hebg-e2b7c.app
 
 Promise.all([members, analysis])
 	.then(function(results) {
-		var members = results[0];
+		var members = {};
+		for(var idx in results[0]) {
+			var entry = results[0][idx];
+			members[entry.bgg_username] = entry;
+		}
+		console.log(members);
 		var analysis = results[1];
 
 		$p(document.body).render({
 			members: members,
 			analysis: analysis,
 		}, {
-			"#all-games-list": {
-				"game<-analysis.master_list": {
-					"a": function() {
-						return this.name;
+			"#most-wanted-list > li": {
+				"game<-analysis.most_wanted": {
+					".game-link": function(params) {
+						var master_list = params.context.analysis.master_list;
+						var game = params.context.analysis.master_list[this.game_id];
+						return game.name;
 					},
-					"a@href": function() {
-						return "https://boardgamegeek.com/boardgame/" + this.id;
+					".game-link@href+": function(params) {
+						var master_list = params.context.analysis.master_list;
+						var game = params.context.analysis.master_list[this.game_id];
+						return game.id;
 					},
-				}
+					".wanted-by-list > li": {
+						"entry<-game.wanted_by": {
+							"a": function(params) {
+								var member = params.context.members[this];
+								return member.name;
+							},
+							"a@href+": "entry",
+						}
+					},
+					".possible-hosts-list > li": {
+						"entry<-game.owned_by": {
+							"a": function(params) {
+								var member = params.context.members[this];
+								return member.name;
+							},
+							"a@href+": "entry",
+						}
+					}
+				},
 			},
-			"#members-list": {
+			"#all-games-list > li": {
+				"game<-analysis.master_list": {
+					"a": "game.name",
+					"a@href+": "game.id",
+				},
+			},
+			"#members-list > li": {
 				"member<-members": {
 					"a": "member.name",
-					"a@href": function() {
-						return "https://boardgamegeek.com/user/" + this.bgg_username;
-					}
+					"a@href+": "member.bgg_username",
 				}
 			}
 		});
