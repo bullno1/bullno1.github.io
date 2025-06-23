@@ -480,11 +480,11 @@ There are some problems with this:
 * It is often easier said than done.
 * Continuing after an error can lead to a cascade of errors, creating too much noise in the diagnostic.
 
-There is a strategy I found that is simple to implement but offer reasonable error tolerance.
+There is a strategy I found that is simple to implement but offer reasonable error tolerance:
 
 * Make the analyzer stop early when there is a syntax (not semantic or reference) error.
 * Keep two versions of the dependency&reference graph we constructed earlier, one "current" and one "previous".
-* During analysis, for each source node that contains any error, check its corresponding "previous" version.
+* During analysis, for each source node that contains any errors, check its corresponding "previous" version.
 * Copy all symbols from the "previous" version which are defined after the error to the "current" version.
   Alternatively, copy all "previous" symbols whose source positions are greater than all other "current" symbols.
 
@@ -498,7 +498,7 @@ int baz = foo;
 ```
 
 There are 3 symbols (variables): `foo`, `bar`, `baz`.
-The user starts editting and created an error:
+The user starts editting and creates an error:
 
 ```c
 int foo =   // No terminator
@@ -525,8 +525,8 @@ However, in the presence of localized errors, it offers a way to preserve the al
 
 Instead of just sending `CompletionItem.label`, consider sending `CompletionItem.textEdit` too.
 This helps to deal with ambiguity when the user/editor is resuming a partial completion.
-For example: `object.f// <Ctrl + space>` should list all fields in `object` starting with `f`.
-But the displayed labels should be: `field_name` instead of `ield_name`.
+For example: `object.f<Ctrl + space>` should list all fields in `object` starting with `f`.
+But the displayed label should be: `field_name` instead of `ield_name`.
 
 ### Grouping symbols
 
@@ -580,6 +580,7 @@ There are still other features to explore:
 
 Once the initial structure is settled, it is easy to iterate and add new features.
 I hope this guide helps you get over the initial hurdles of implementing your own language server.
+Now go out there and serve some languages.
 
 ---
 
