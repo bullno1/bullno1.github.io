@@ -5,9 +5,7 @@ title: About
 
 # About me
 
-My birth name is Le Viet Bach (Bach is the given name).
-
-I am passionate about technology and game development.
+Having my own Terry Davis moment, minus the rants.
 
 # Contact
 
