@@ -32,7 +32,7 @@ After being somewhat happy with the current state of my language server, I guess
 
 This guide will be written to be as language-agnostic as possible.
 It will also assume no framework other than standard library, OS API or commonly available libraries such as JSON parser.
-However, keep in mind that it was based on my experience implementing a language server for [uxntal](https://wiki.xxiivv.com/site/uxntal.html), using C99 and [my own async I/O framework](https://github.com/bullno1/bio).
+However, keep in mind that it was based on my experience implementing a language server for [uxntal](https://wiki.xxiivv.com/site/uxntal.html), using C11 and [my own async I/O framework](https://github.com/bullno1/bio).
 That said, what is written here should hopefully be transferrable.
 
 The goal is to implement a language server that is capable of:
