@@ -456,7 +456,7 @@ However, the following should apply to many languages:
 
   1. Find the source line.
      The file is already split into lines in order to support previous features.
-  2. From the cursor position, scan backward we hit the beginning of the line or a white space.
+  2. From the cursor position, scan backward until we hit the beginning of the line or a white space.
   3. The text between the position in step 2 and the cursor is the "completion context" token.
 * Since this token is in the process of being edited, we cannot fully rely on it and treat it like a "go to definition" request.
   What we can do is making use of existing surrounding context:
