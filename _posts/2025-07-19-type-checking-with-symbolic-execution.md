@@ -16,7 +16,7 @@ Being an enjoyer of a high level and highly abstracted language called C [^2], I
 [uxnbal](https://wiki.xxiivv.com/site/uxntal_notation.html#validation) exists and it has some very good ideas.
 But I want more.
 
-Having created a [language server](http://localhost:4000/blog/building-a-language-server), I want the errors highlighted right in my editor.
+Having created a [language server](https://bullno1.com/blog/building-a-language-server), I want the errors highlighted right in my editor.
 The mistakes I made go beyond just stack imbalance: passing arguments in the wrong order, something that happens in other languages too.
 That means I need a type system.
 
