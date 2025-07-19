@@ -504,10 +504,10 @@ The other is to handle two possible paths of a **conditional** jump.
 If a boolean opcode is followed by a conditional jump (e.g: `LTH JCN`) which is quite common, the number of paths would explode to 4:
 
 ```
-             a b           LTH
+             a b           LTH ( Fork on boolean )
        +------+------+
        |             |
-     a b 0         a b 1   JCN
+     a b 0         a b 1   JCN ( Fork on conditional jump )
        |             |
     +--+--+       +--+--+
     |     |       |     | 
