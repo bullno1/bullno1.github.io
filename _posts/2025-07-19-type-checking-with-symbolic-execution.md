@@ -633,6 +633,7 @@ The return address can now be passed around with [`STHr`](https://wiki.xxiivv.co
 It can be split in half and joined whole again.
 It just can't be modified.
 `is_return_address` represents an "abstract return address" that we do not know the value of.
+As long as it is jumped to, the routine has "returned".
 
 All the previous problems disappear.
 To model call into an unannotated helper routine, just do it:
