@@ -285,7 +285,7 @@ There are also some other details like:
 
 * When a half value is modified in anyway (e.g: `ADD`, `SUB`...), it immediately "forgets" about its original whole, preventing merging.
 * The whole values are heap allocated, pooled and reused.
-  They are also allocatd from an arena so the memory management is fuss free.
+  They are also allocated from an arena so the memory management is fuss free.
 
 With that simple modification, all opcodes are still simply implemented in the canonical microcode definition.
 The stack can be manipulated in other combinations but whenever the two original halves are next to each other, they retain their original type information.
