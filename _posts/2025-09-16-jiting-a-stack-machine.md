@@ -1184,7 +1184,7 @@ Take note that all of this happens in (JIT) compile-time, not runtime.
 
 This is another optimization that has great effects.
 It requires a lot more effort than the call optimization.
-However, the JIT'ed code can now takes advantage of a register machine.
+However, the JIT'ed code can now takes advantage of a register machine a bit better.
 
 # Other optimizations
 
