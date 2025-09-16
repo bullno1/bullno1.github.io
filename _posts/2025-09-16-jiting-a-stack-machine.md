@@ -15,7 +15,7 @@ It looks something like this:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ojtJX3BNURE?si=yOlAzmWchYnSulKJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 A long the way, I noticed that the CPU usage was a bit high.
-While it is nothing my monster of a computer can't handle, it would be a problem on smaller devices [^2].
+While it is nothing my monster of a desktop can't handle, it would be a problem on smaller devices [^2].
 So I finally have an execuse to explore JIT compilation.
 And [this](https://github.com/bullno1/buxn-jit) is the result.
 
