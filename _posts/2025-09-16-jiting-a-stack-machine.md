@@ -1019,14 +1019,6 @@ buxn_jit_stack_cache_pop(
             buxn_jit_stack_cache_cell_t* top = &cache->cells[--cache->len];
             if (top->value.is_short) {
                 // The top value is the right size, just return it
-                // Wrap the value due to potential overflow
-                sljit_emit_op2(
-                    ctx->compiler,
-                    SLJIT_AND,
-                    top->value.reg, 0,
-                    top->value.reg, 0,
-                    SLJIT_IMM, 0xffff
-                );
                 return top->value.reg;
             } else {
                 // The top value is a byte, pop the high byte from the stack
@@ -1093,14 +1085,6 @@ buxn_jit_stack_cache_pop(
             } else {
                 // The top value is the right size, just return it
                 cache->len -= 1;
-                // Wrap due to potential overflow
-                sljit_emit_op2(
-                    ctx->compiler,
-                    SLJIT_AND,
-                    top->value.reg, 0,
-                    top->value.reg, 0,
-                    SLJIT_IMM, 0x00ff
-                );
                 return top->value.reg;
             }
         }
@@ -1110,10 +1094,6 @@ buxn_jit_stack_cache_pop(
 
 Yes, that is the actual code.
 There is nothing advanced about it but the combination of the two modes and the possibility of cache miss and spill creates a lot of branches (in the compiler, not the generated code).
-
-The "potential overflow" can happen due to SLJIT registers always being at word size (32 or 64 bits).
-It was not a problem before the stack cache since we write to memory byte-by-byte and any overflow are taken care of due to the truncation to 8 or 16 bit.
-But now, with memory access elimination, temporary values can have invalid wrap around without this masking step.
 
 ### Keep mode woes
 
