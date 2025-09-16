@@ -1573,6 +1573,7 @@ From SLJIT's [overview](https://github.com/zherczeg/sljit/blob/b7442be1c4f784ecc
 
 The initial naive application didn't even yield much gains.
 Only after a bunch of optimizations that it really shines: a 30-46% speedup compared to the computed goto interpreter.
+On a [CM5](https://www.raspberrypi.com/products/compute-module-5/), CPU usage when running uxn-beat is reduced from 60% to around 40%.
 And even that doesn't even sound magical enough [^14].
 
 A stack machine is an attractive target for compiler writers, esp new comers but making it fast is not trivial.
@@ -1623,4 +1624,4 @@ Now go out there and JIT.
 
 [^13]: Having the bytecode interpreter and the JIT runtime being different functions allows for disabling JIT when a debugger is attached.
 
-[^14]: LuaJIT is really some miracle/black magic.
+[^14]: LuaJIT is really some arcane black magic.
