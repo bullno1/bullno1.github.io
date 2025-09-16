@@ -716,7 +716,7 @@ This means a direct jump target (e.g: function) can be used for both calls (with
 We do not want to compile two separate copies of every function just for that.
 
 Recall that a function begins with: `sljit_emit_enter`.
-Internally it sets up a function prologue for the target calling conventions.
+Internally it sets up a function prologue for the native calling convention.
 A tail call or a direct jump just means skipping that prologue.
 At the start of a function, emit 2 separate labels:
 
